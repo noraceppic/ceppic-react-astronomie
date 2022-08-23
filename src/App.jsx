@@ -6,6 +6,7 @@ import Ajouter from './components/pages/Ajouter';
 import Articles from './components/pages/Articles';
 import Apropos from './components/pages/Apropos';
 import Footer from './components/Footer';
+import Home from './components/pages/Home';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className='app'>
   <Header/>
   <Routes>
+    <Route path ="Home" element={<Home/>}/>
     <Route path ="Articles" element ={<Articles/>}/>
     <Route path ="Ajouter" element ={<Ajouter/>}/>
     <Route path ="Apropos" element ={<Apropos/>}/>
