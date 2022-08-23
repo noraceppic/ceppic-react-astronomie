@@ -1,4 +1,9 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { db } from "../firebase";
 export default function Ajouter() {
+    const [Titre, setTitre]=useState();
+    const[Articl, setArticl]=useState();
   return (
     <>
       <h1> Ajouter Articles</h1>
