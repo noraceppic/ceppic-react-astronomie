@@ -7,6 +7,11 @@ export default function Header() {
         <>
         <nav id="NAV">
             <ul id="headmenu">
+            <li>
+            <Link to ="Home" >
+                <span> Home</span>
+            </Link>
+              </li>
                 <li>
             <Link to ="Articles" >
                 <span> Article</span>

@@ -6,9 +6,9 @@
 
   }
   #headmenu {
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex; 
-    margin: 0  30rem;
+    
     justify-content: space-between;
     list-style: none;
     align-items:flex-end;
