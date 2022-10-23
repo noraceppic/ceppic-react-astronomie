@@ -8,7 +8,7 @@ export default function Articles() {
 
     useEffect(() => {
         const articlesRef = query(
-           collection(db, "astro"),
+           collection(db, "astro2"),
            orderBy("created_bd", "desc")
         )
         onSnapshot(articlesRef, (snapshot) => {

@@ -13,7 +13,7 @@ export default function FormArticle() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await addDoc(collection(db, "astro"), {
+      await addDoc(collection(db, "astro2"), {
         titre_bd: titre,
         article_bd: article,
         created_bd: Timestamp.now(),
@@ -29,7 +29,7 @@ export default function FormArticle() {
     return (
       <>
         <p>l'article a été Enregisté.</p>
-        <navigate to="/articles" />
+        <navigate to="../articles" />
       </>
     );
   }
